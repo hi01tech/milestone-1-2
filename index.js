@@ -8,13 +8,3 @@ toggleButton.addEventListener("click", function () {
         skills.style.display = "none";
     }
 });
-var on = document.getElementById("toggle-education");
-var edu = document.getElementById("education");
-on.addEventListener("click", function () {
-    if (edu.style.display === "none") {
-        edu.style.display = "block";
-    }
-    else {
-        edu.style.display = "none";
-    }
-});

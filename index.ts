@@ -9,16 +9,5 @@ toggleButton.addEventListener("click" , ()=> {
     }
 });
 
-const education =document.getElementById("toggle-education") as HTMLButtonElement
-const edu = document.getElementById("education") as HTMLElement
-
-education.addEventListener("click" , ()=> {
-    if (edu.style.display === "none"){
-        edu.style.display ="block"
-    } else {
-        edu.style.display = "none"
-    }
-});
-
 
 
